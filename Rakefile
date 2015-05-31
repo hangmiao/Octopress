@@ -6,8 +6,8 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "ec2-user@52.25.28.98"
 ssh_port       = "22"
-document_root  = "~/gnah.me/"
-rsync_delete   = false
+document_root  = "/var/www/html"
+rsync_delete   = true
 rsync_args     = ""  # Any extra arguments to pass to rsync
 deploy_default = "rsync"
 
