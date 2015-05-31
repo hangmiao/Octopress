@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Search Selected Text | CyberWalker]]></title>
+  <link href="http://gnah.me/blog/categories/search-selected-text/atom.xml" rel="self"/>
+  <link href="http://gnah.me/"/>
+  <updated>2015-05-30T15:26:04-07:00</updated>
+  <id>http://gnah.me/</id>
+  <author>
+    <name><![CDATA[Hahn]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A Firefox Addon to Quickly Search for Selected Texts]]></title>
+    <link href="http://gnah.me/blog/2015/03/03/a-firefox-addon-to-quickly-search-for-selected-texts/"/>
+    <updated>2015-03-03T22:55:32-08:00</updated>
+    <id>http://gnah.me/blog/2015/03/03/a-firefox-addon-to-quickly-search-for-selected-texts</id>
+    <content type="html"><![CDATA[<h1>Background</h1>
+
+<p>If you often see something on webpage and want to do a Google search of it, then this addon could be a huge time saver.</p>
+
+<p>It is basically a Firefox addon to quickly search for selected texts on a
+     webpage. So you don&rsquo;t have to &ldquo;copy, moving to the search box in the
+browser, paste, and hit <code>enter</code>&rdquo;. Instead you can just select the texts and then press
+some keyboard shortcuts. This add-on will open up a new tab and show the search engine results.</p>
+
+<p>I used to live without it until one day I had to do some quite intensive searching.
+Having to repeatedly following that cumbersome procedure kinda drove me crazy.
+So I googled it and it turned out, in this day and age, there isn&rsquo;t a
+quick way to do it! Then I decided to write my own. It works quite well and now I
+can&rsquo;t live without it.</p>
+
+<p>If you are stilling struggling with this kinda issue, hope this will help you too!</p>
+
+<h1>Usage</h1>
+
+<ol>
+<li>Install this <a href="https://addons.mozilla.org/en-US/firefox/addon/search-selected-shortcuts/">Search Selected Shortcuts addon</a> (no need to restart).</li>
+<li>Select the text you want to search on a webpage.</li>
+<li>Press some keyboard shortcuts:
+
+<ul>
+<li><strong><code>alt + s</code></strong>: google search the selected text</li>
+<li><strong><code>alt + q</code></strong>: google search the selected text, but also put them in double quotes.<br/>
+ E.g. you&rsquo;ve selected, <code>theory of everything</code>, then it will do a search of <code>"theory of everything"</code></li>
+<li><strong><code>alt + c</code></strong>: google search the selected text, but only search in the current site.
+ E.g. if you are on <code>stackoverflow.com</code>, the search would be like, <code>hackish site:stackoverflow.com</code></li>
+<li><strong><code>alt + i</code></strong>: google image search</li>
+<li><strong><code>alt + w</code></strong>: wikipedia search the selected text</li>
+</ul>
+</li>
+<li>Eureka!</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
